@@ -1,0 +1,51 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0da5d3;
+    width: 75%;
+    height: 300px;
+    margin: 10px auto;
+    text-align: center;
+    border: 10px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.campo {
+    margin: 10px;
+    padding: 10px;
+    width: 60%;
+    tab-size: 14px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.botaoo {
+    font-size: 16px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    background-color: salmon;
+    color: black;
+    border-color: salmon;
+    box-shadow: 0px 2px 4px lightgray;
+    border-radius: 50px;
+}
+
+.botaoo:hover{
+    background-color: sienna;
+}
+
+.mensagem {
+    border: solid 1px;
+    margin: 5px;
+    width: 75%;
+    border-radius:  5px;
+    padding: 5px;
+}

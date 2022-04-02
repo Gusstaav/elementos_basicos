@@ -1,0 +1,26 @@
+.contador{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #DE1A1A;
+    color: #ACBED8;
+    width: 75%;
+    height: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px darkblue;
+}
+
+h1, h2 {
+    margin: 5px;
+    font-weight: 300;
+}
+
+.botao{
+ font-size: 16px;   
+ width: 170px;
+ padding: 5px;
+ background-color: lightblue;
+ border-radius: 10px;
+ box-shadow: 1px 0px 10px  whitesmoke;
+}
