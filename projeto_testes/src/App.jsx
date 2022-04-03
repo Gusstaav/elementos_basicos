@@ -1,9 +1,8 @@
 import "./styles/global.css";
-import Comp_basico from "./components/Comp_basico";
 import Login from "./components/Login";
-import Contador from "./components/Contador";
 import Formulario from "./components/Formulario";
 import Calculadora from "./components/Calculadora";
+import Validar from "./components/BOLETIM";
 
 export default function App() {
     return (
@@ -13,14 +12,12 @@ export default function App() {
         {/*<Comp_basico titulo="Aula 01" subtitulo="Revisão de componentes" />*/}
         {/*<Comp_basico titulo="Aula 02" subtitulo="Revisão props" />*/}
         {/*<Comp_basico titulo="Titulo padrão" subtitulo="Subtitulo padrão" />*/}
-        
-       <Login />
-        
-       
-        <hr />
-        <Formulario />
+        <Login />
         <hr />
         <Calculadora />
+        <hr />
+        <Validar />
+
         </>
     );
 }
