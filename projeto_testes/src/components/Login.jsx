@@ -1,13 +1,21 @@
-import { useState } from 'react';
-import App from '../App';
-
 import '../styles/login.css';
+import { useState } from 'react';
+import React from 'react';
 
 export default function Login(){
     const [usuario, setUsuario] = useState("")
     const [senha, setSenha] = useState("")
+    const [mensagem, setMensagem] = useState("")
+    const [avisoSenha, setAvisoSenha] = useState("")
 
-    
+    function concatenar(){
+      if(usuario + senha == 'usuario' + '123456')(
+        setMensagem("bem vindo " + usuario)
+        )
+        else(
+          setMensagem("nome de usuario ou senha incorretos")
+        );
+    }
 
     return(
        <div className="tela_login">
@@ -27,10 +35,12 @@ export default function Login(){
         onChange={ e => setSenha( e.target.value )}
         />
 
+<p className='aviso'>{mensagem}</p> 
+
         <button className="avancar" 
-        onClick={o}>
+        onClick={ concatenar }>
           Entrar
         </button>
-        </div>
+     </div>
     );
 }

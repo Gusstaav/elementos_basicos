@@ -1,5 +1,6 @@
 import "./styles/global.css";
 import Comp_basico from "./components/Comp_basico";
+import Login from "./components/Login";
 import Contador from "./components/Contador";
 import Formulario from "./components/Formulario";
 import Calculadora from "./components/Calculadora";
@@ -13,9 +14,9 @@ export default function App() {
         {/*<Comp_basico titulo="Aula 02" subtitulo="Revisão props" />*/}
         {/*<Comp_basico titulo="Titulo padrão" subtitulo="Subtitulo padrão" />*/}
         
+       <Login />
+        
        
-        <hr />  
-        {/*<Contador />*/}
         <hr />
         <Formulario />
         <hr />
